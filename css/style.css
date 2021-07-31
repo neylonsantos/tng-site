@@ -1,0 +1,104 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;900&display=swap');
+
+body {
+  font-family: 'Roboto Slab', serif;
+  font-weight: 500;
+  color: #0d0f11;
+}
+
+strong {
+  font-weight: 600;
+}
+
+#home-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 60px;
+}
+
+#home-page .div {
+  width: 50%;
+  height: auto;
+}
+
+.logo-img {
+  width: 400px;
+  height: 200px;
+  background-color: white;
+  /* border-radius: 50%; */
+  background-repeat: no-repeat;
+  background-image: url('../assets/tng-logo.png');
+  background-size: 100%;
+  /* background-position: 70% 28% */
+}
+
+.page-body {
+  padding: 0 20px;
+  max-width: 600px;
+}
+
+.contacts-title h2 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 900;
+  margin-top: 0.5em;
+  font-size: 2em;
+  padding-top: 30px;
+  margin: auto;
+  text-align: left;
+}
+
+.linkage {
+  font-family: 'Roboto', sans-serif;
+  margin-top: 40px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 30%;
+  padding-right: 30%;
+}
+
+.linkage .link-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-decoration: none;
+  font-weight: 400;
+  color: #0d0f11;
+}
+
+.linkage .icon-mail {
+  height: 50px;
+  width: 50px;
+  /* border-radius: 50%; */
+  margin-bottom: 10px;
+  background-color: #fdfdfd;
+  background-image: url('../assets/gmail.svg');
+  background-size: 100%;
+  background-position: 50% 50%
+}
+
+.linkage .icon-facebook {
+  height: 50px;
+  width: 50px;
+  /* border-radius: 50%; */
+  margin-bottom: 10px;
+  background-color: #fdfdfd;
+  background-image: url('../assets/facebook.svg');
+  background-size: 100%;
+  background-position: 50% 50%
+}
+
+.linkage .icon-instagram {
+  height: 50px;
+  width: 50px;
+  /* border-radius: 50%; */
+  margin-bottom: 10px;
+  background-color: #fdfdfd;
+  background-image: url('../assets/instagram.svg');
+  background-size: 100%;
+  background-position: 50% 50%
+}
